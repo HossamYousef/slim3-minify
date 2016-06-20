@@ -1,0 +1,26 @@
+{
+    "name": "hossamyousef/slim3-minify",
+    "description": "Minify html output in slim framework",
+    "version": "0.0.1",
+    "keywords": ["php","minify","html", "slim", "framework", "middleware"],
+    "homepage": "https://github.com/hossamyousef/slim3-minify",
+    "authors": [
+    	{
+            "name": "Hossam Youssef",
+            "email": "hossam.mox@gmail.com",
+            "role": "Developer"
+      }
+    ],
+    "support": {
+        "issues": "https://github.com/hossamyousef/slim3-minify/issues",
+        "docs": "https://github.com/HossamYousef/slim3-minify/blob/master/README.md"
+    },
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0",
+        "slim/slim": "^3.0"
+    },
+    "autoload": {
+	      "psr-4": { "Slim\\Middleware\\": "src/Slim/Middleware/" }
+	  }
+}
